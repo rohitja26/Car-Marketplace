@@ -1,6 +1,6 @@
+import Category from "./components/Category";
 import Header from "./components/Header";
-import { Button } from "./components/ui/button";
-import { SignInButton } from "@clerk/clerk-react";
+import Hero from "./components/Hero";
 
 const Home = () => {
   return (
@@ -8,6 +8,9 @@ const Home = () => {
       {/* Header */}
       <Header />
       {/* Hero Section */}
+      <Hero />
+      {/* Category */}
+      <Category />
     </div>
   );
 };

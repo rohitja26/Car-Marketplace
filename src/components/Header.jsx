@@ -25,7 +25,7 @@ function Header() {
       {isSignedIn ? (
         <div className="flex items-center gap-5">
           <UserButton />
-          <Button>Submit L isting</Button>
+          <Button>Submit Listing</Button>
         </div>
       ) : (
         <Button>Submit Listing</Button>
