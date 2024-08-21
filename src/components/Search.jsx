@@ -29,7 +29,7 @@ function Search() {
         </SelectTrigger>
         <SelectContent>
           {Data.CarMakes.map((maker, index) => (
-            <SelectItem value="light" key={index}>
+            <SelectItem value={maker.name} key={index}>
               {maker.name}
             </SelectItem>
           ))}
@@ -42,7 +42,7 @@ function Search() {
         </SelectTrigger>
         <SelectContent>
           {Data.Pricing.map((price, index) => (
-            <SelectItem value="light" key={index}>
+            <SelectItem value={price.amount} key={index}>
               {price.amount}
             </SelectItem>
           ))}
