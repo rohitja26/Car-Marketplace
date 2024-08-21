@@ -1,6 +1,8 @@
 import Category from "./components/Category";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import InfoSection from "./components/InfoSection";
 import MostSearchCar from "./components/MostSearchCar";
 
 const Home = () => {
@@ -14,6 +16,10 @@ const Home = () => {
       <Category />
       {/* Most Searched Car Componect */}
       <MostSearchCar />
+      {/* Info Section */}
+      <InfoSection />
+      {/* Footer Section */}
+      <Footer />
     </div>
   );
 };
